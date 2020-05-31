@@ -1,4 +1,4 @@
-const template = Handlebars.compile("<li> You rolled a <img src = \"{{  value  }}.png\"></li>");
+const template = Handlebars.compile(document.querySelector('#result').innerHTML);
 
 document.addEventListener('DOMContentLoaded', () => {
 	document.querySelector('#roll').onclick = () => {
